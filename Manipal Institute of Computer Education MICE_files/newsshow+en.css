@@ -1,0 +1,478 @@
+
+.gns-root {
+  font-family: arial, sans-serif;
+  font-size : 13px;
+  position : relative;
+}
+
+.gns-ss-frame {
+  width : 82px;
+  height : 62px;
+}
+
+.gns-ss-title {
+  width : 82px;
+  height : 1.3em;
+  line-height : 1.3em;
+  overflow : hidden;
+  font-size : 11px;
+  text-align : center;
+}
+
+.gns-ss-image {
+  width : 82px;
+  height : 62px;
+}
+
+/* Absolute Objects */
+.gns-basecanvas,
+.gns-sponsor,
+.gns-spinner,
+.gns-poweredby,
+.gns-poweredbydivider,
+.gns-ssdivider,
+.gns-clusterresults,
+.gns-clusterdivider,
+.gns-result,
+.gns-ads,
+.gns-728x90 .gns-cursor-wrapper,
+.gns-300x250 .gns-cursorcontrols,
+.gns-ss-title,
+.gns-query-title,
+.gns-ss-frame,
+.gns-ss-image {
+  position : absolute;
+}
+
+/* Link Properties */
+.gns-ss-frame a:link img,
+.gns-ss-frame a:visited img {
+  border : 1px solid #000099;
+}
+
+.gns-root a:link img,
+.gns-root a:visited img {
+  border : none;
+}
+
+.gns-title a:link,
+.gns-title a:visited {
+  color : #000099;
+  text-decoration : underline;
+}
+
+.gns-clusterresults .gns-title a:link,
+.gns-clusterresults .gns-title a:visited {
+  color : #000099;
+  text-decoration : underline;
+}
+.gns-clusterresults .gns-title a:hover {
+  text-decoration : underline;
+}
+
+.gns-clusterresults .gns-publisher a:link,
+.gns-clusterresults .gns-publisher a:visited {
+  color : #008000;
+  text-decoration : underline;
+}
+.gns-clusterresults .gns-title a:hover {
+  text-decoration : underline;
+}
+
+.gns-cluster a:link,
+.gns-cluster a:visited {
+  color : #008000;
+  text-decoration : underline;
+}
+
+.gns-sstitle a:link,
+.gns-sstitle a:visited {
+  color : #000099;
+  text-decoration : none;
+}
+
+.gns-sstitle a:hover {
+  text-decoration : underline;
+}
+
+/* Common Colors and Sizes */
+.gns-title {
+  font-weight : bold;
+}
+
+.gns-sourceandtime,
+.gns-cluster,
+.gns-snippet {
+  font-size : 90%;
+}
+
+.gns-source {
+  color : #666666;
+}
+
+.gns-date {
+  font-weight : bold;
+  color : #000000;
+}
+
+.gns-snippet {
+  color : #000000;
+}
+
+.gns-poweredby-text {
+  color : #666666;
+  font-size : 11px;
+}
+
+.gns-query-title {
+  color : #000000;
+  font-size : 18px;
+  font-weight : normal;
+}
+
+.gns-visibleurl {
+  color : green;
+  font-style : normal;
+}
+
+/* 728x90 Locations/Options */
+.gns-728x90 {
+  width : 728px;
+  height : 90px;
+  background-color : #ccd9f2;
+}
+
+.gns-728x90 .gns-basecanvas {
+  top : 1px;
+  left : 1px;
+  width : 726px;
+  height : 88px;
+  background-color : #ffffff;
+  background-repeat : no-repeat;
+  background-image : url('/uds/modules/elements/newsshow/generic-noborder-726x88.gif');
+}
+
+.gns-branded-728x90 .gns-basecanvas {
+  background-image : url('/uds/modules/elements/newsshow/branded-noborder-726x88.gif');
+}
+
+.gns-element-728x90 .gns-basecanvas {
+  background-image : url('/uds/modules/elements/newsshow/element-noborder-726x88.gif');
+}
+
+.gns-branded-paused-728x90,
+.gns-generic-paused-728x90,
+.gns-element-paused-728x90 {
+  background-color : #6a85b8;
+}
+
+.gns-branded-728x90 .gns-sponsor {
+  height : 40px;
+  width : 163px;
+  border : none;
+  top : 0px;
+  left : 0px;
+}
+
+.gns-branded-728x90 .gns-clearimg {
+  width : 163px;
+  height : 40px;
+}
+.gns-728x90 .gns-query-title {
+  width : 163px;
+  text-align : center;
+  line-height : 1.3em;
+  height : 1.3em;
+  overflow : hidden;
+}
+
+.gns-generic-728x90 .gns-query-title,
+.gns-element-728x90 .gns-query-title {
+  top : 25px;
+}
+.gns-branded-728x90 .gns-query-title {
+  top : 42px;
+}
+
+.gns-728x90 .gns-ss-frame {
+  top : 9px;
+  left : 638px;
+}
+
+.gns-728x90 .gns-ss-title {
+  top : 71px;
+  left : 638px;
+}
+.gns-728x90 .gns-ss-image {
+  top : 0px;
+  left : 0px;
+}
+
+.gns-728x90 .gns-result {
+  top : 5px;
+  left : 175px;
+  width : 455px;
+}
+
+.gns-728x90 .gns-ads {
+  top : -1px;
+  left : -1px;
+  width : 728px;
+  height : 90px;
+  z-index : 1000;
+}
+
+.gns-728x90 .gns-cursor-wrapper {
+  right : 2px;
+  bottom : 0px;
+  color : #000099;
+  font-size : 11px;
+}
+.gns-728x90 .gns-cursor-space {
+  margin: 0px 8px;
+}
+
+.gns-728x90 .gns-cursor {
+  text-decoration : underline;
+  cursor : pointer;
+}
+
+.gns-728x90 .gns-notready .gns-cursor {
+  color : #f9f9f9;
+  text-decoration : none;
+}
+
+.gns-generic-728x90 .gns-poweredby,
+.gns-element-728x90 .gns-poweredby {
+  top : 47px;
+  left : 0px;
+  width : 169px;
+  border : none;
+}
+.gns-branded-728x90 .gns-poweredby {
+  top : 66px;
+  left : 0px;
+  width : 163px;
+  border : none;
+}
+.gns-728x90 .gns-poweredby .gns-clearimg {
+  width : 163px;
+  height : 18px;
+}
+
+.gns-728x90 .gns-title {
+  line-height : 1.3em;
+  height : 1.3em;
+  overflow : hidden;
+}
+
+.gns-728x90 .gns-sourceandtime {
+  line-height : 1.3em;
+  height : 1.3em;
+  overflow : hidden;
+}
+
+.gns-728x90 .gns-snippet {
+  line-height : 1.3em;
+  height : 2.6em;
+  overflow : hidden;
+  margin-bottom : 2px;
+}
+
+.gns-728x90 .gns-cluster {
+  line-height : 1.3em;
+  height : 1.3em;
+  overflow : hidden;
+}
+.gns-728x90 .gns-cursor-wrapper {
+  float : right;
+  line-height : 1.3em;
+  height : 1.3em;
+  overflow : hidden;
+}
+
+
+/* 300x250 Locations/Options */
+.gns-300x250 {
+  width : 300px;
+  height : 250px;
+  background-color : #ccd9f2;
+}
+
+.gns-300x250 .gns-basecanvas {
+  top : 1px;
+  left : 1px;
+  width : 298px;
+  height : 248px;
+  background-color : #ffffff;
+  background-repeat : no-repeat;
+  background-image : url('/uds/modules/elements/newsshow/generic-noborder-298x248.gif');
+}
+
+.gns-element-300x250 .gns-basecanvas {
+  background-image : url('/uds/modules/elements/newsshow/element-noborder-298x248.gif');
+}
+
+.gns-branded-paused-300x250,
+.gns-generic-paused-300x250,
+.gns-element-paused-300x250 {
+  background-color : #6a85b8;
+}
+
+.gns-branded-300x250 .gns-sponsor {
+  height : 40px;
+  width : 160px;
+  top : 0px;
+  right : 0px;
+}
+
+.gns-branded-300x250 .gns-clearimg {
+  width : 160px;
+  height : 40px;
+}
+
+.gns-300x250 .gns-query-title {
+  top : 4px;
+  left : 8px;
+  width : 288px;
+  text-align : left;
+  line-height : 1.3em;
+  height : 1.3em;
+  overflow : hidden;
+}
+
+.gns-branded-300x250 .gns-query-title {
+  width : 140px;
+}
+
+.gns-300x250 .gns-ss-frame {
+  top : 136px;
+  right : 8px;
+}
+
+.gns-300x250 .gns-ss-title {
+  top : 196px;
+  right : 8px;
+}
+.gns-branded-300x250 .gns-ss-title {
+  top : 202px;
+}
+
+.gns-300x250 .gns-ss-image {
+  top : 0px;
+  left : 0px;
+}
+
+.gns-300x250 .gns-result {
+  top : 30px;
+  left : 8px;
+  width : 288px;
+}
+
+.gns-300x250 .gns-ads {
+  top : -1px;
+  left : -1px;
+  width : 300px;
+  height : 250px;
+  z-index : 1000;
+}
+
+.gns-branded-300x250 .gns-result {
+  top : 42px;
+}
+
+.gns-300x250 .gns-clusterresults {
+  top : 136px;
+  left : 8px;
+  width : 194px;
+}
+
+.gns-branded-300x250 .gns-ss-frame,
+.gns-branded-300x250 .gns-clusterresults {
+  top : 140px;
+}
+
+.gns-300x250 .gns-cursorcontrols {
+  left : 8px;
+  bottom : 4px;
+}
+
+.gns-300x250 .gns-cursor-wrapper {
+  color : #000099;
+  font-size : 11px;
+}
+.gns-300x250 .gns-cursor-space {
+  margin: 0px 4px;
+}
+
+.gns-300x250 .gns-cursor {
+  text-decoration : underline;
+  cursor : pointer;
+}
+
+.gns-300x250 .gns-notready .gns-cursor {
+  color : #f9f9f9;
+  text-decoration : none;
+}
+
+.gns-300x250 .gns-poweredby {
+  bottom : 0px;
+  right : 0px;
+  width : 136px;
+}
+.gns-300x250 .gns-poweredby .gns-clearimg {
+  width : 136px;
+  height : 18px;
+}
+
+.gns-300x250 .gns-title {
+  line-height : 1.3em;
+  height : 1.3em;
+  overflow : hidden;
+}
+
+.gns-300x250 .gns-sourceandtime {
+  line-height : 1.3em;
+  height : 1.3em;
+  overflow : hidden;
+}
+
+.gns-300x250 .gns-snippet {
+  line-height : 1.3em;
+  height : 5.2em;
+  overflow : hidden;
+  margin-bottom : 2px;
+}
+
+.gns-300x250 .gns-clusterresults .gns-title {
+  line-height : 1.3em;
+  height : 1.3em;
+  font-size : 12px;
+  overflow : hidden;
+  font-weight : normal;
+}
+
+.gns-300x250 .gns-cluster {
+  margin-top : 2px;
+  line-height : 1.3em;
+  height : 1.3em;
+  overflow : hidden;
+  font-weight : bold;
+}
+
+.gns-300x250 .gns-cluster-publishers {
+  margin-top : 4px;
+  line-height : 1.3em;
+  height : 2.6em;
+  font-size : 12px;
+  overflow : hidden;
+  font-weight : normal;
+}
+
+.gns-300x250 .gns-cursor-wrapper {
+  text-align : left;
+  line-height : 1.3em;
+  height : 1.3em;
+  overflow : hidden;
+}
+
