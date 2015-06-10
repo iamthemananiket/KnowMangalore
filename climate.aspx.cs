@@ -49,7 +49,7 @@ public partial class climate : System.Web.UI.Page
         }
         catch (Exception ex)
         {
-            Literal1.Text = ex.ToString();
+            //Literal1.Text = ex.ToString();
         }
     }
 
